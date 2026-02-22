@@ -1,0 +1,56 @@
+@"
+# Build directories
+build/
+cmake-build-*/
+out/
+Debug/
+Release/
+
+# Compiled binaries
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.lib
+*.a
+*.out
+*.app
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+*.data
+
+# IDE settings - CLion/IntelliJ
+.idea/
+*.iml
+/shelf/
+/workspace.xml
+/httpRequests/
+/dataSources/
+/dataSources.local.xml
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Large files
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+*.iso
+*.dmg
+*.pkg
+
+# Logs
+*.log
+*.tmp
+*.temp
+*.cache
+"@ | Out-File -FilePath .gitignore -Encoding utf8
